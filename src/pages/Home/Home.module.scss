@@ -1,0 +1,605 @@
+@import "normalize.css";
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
+.wrapper {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    .inner {
+        width: 1140px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        // .background-001 {
+        //     width: 100vw;
+        //     background-image: url(https://wordpress.altdesain.com/beautice/beautyclinic/wp-content/uploads/2021/11/slide-background1-large.png);
+        //     background-position: top left;
+        //     background-repeat: no-repeat;
+        //     background-size: contain;
+        //     margin-top: -150px;
+        //     display: flex;
+        //     justify-content: center;
+        // }
+        .section001 {
+            width: 100%;
+            padding: 229px 0px 100px 0px;
+            border: 1px solid red;
+            display: flex;
+            .left {
+                width: 47%;
+                border: 1px solid red;
+                .title {
+                    color: #091156;
+                    margin: 0px 0px 20px 0px;
+                    font-family: "Poppins", Sans-serif;
+                    font-size: 3rem;
+                    font-weight: 600;
+                    line-height: 55px;
+                }
+                .description {
+                    color: #091156;
+                    font-family: "Poppins", Sans-serif;
+                    font-size: 16px;
+                    font-weight: 500;
+                    letter-spacing: 1px;
+                    margin: 0px 0px 20px 0px;
+                }
+                .btn-01 {
+                    display: flex;
+                    justify-content: start;
+                    border: 1px solid red;
+                    .btn-contact {
+                        width: 185px;
+                        height: 60px;
+                        border: none;
+                        background-color: #ff64ae;
+                        border-radius: 50px 50px 50px 50px;
+                        box-shadow: 0px 17px 22px 0px #ffedf6;
+                        font-family: "Poppins", Sans-serif;
+                        font-size: 48px;
+                        font-weight: 600;
+                        line-height: 55px;
+                        color: white;
+                        font-size: 1rem;
+                        &:hover {
+                            cursor: pointer;
+                            background-color: #172176;
+                            transition: 0.7s;
+                        }
+                    }
+                }
+            }
+            .right {
+                width: 53%;
+                border: 1px solid red;
+            }
+        }
+    }
+    ///Section002
+    .section002 {
+        width: 1140px;
+        border: 1px solid red;
+        height: 400px;
+        display: flex;
+        justify-content: center;
+        .Main-Services {
+            border: 1px solid red;
+            text-align: center;
+        }
+        .title-main {
+            font-weight: 600;
+            font-size: 1.6rem;
+            line-height: 125%;
+            color: #ff64ae;
+        }
+        .description-main {
+            color: #091156;
+            font-size: 3.6rem;
+            line-height: 125%;
+            margin-bottom: 20px;
+        }
+        .description-main-1 {
+            color: #8b8b8b;
+            font-size: 16px;
+            line-height: 24px;
+        }
+    }
+    ///Section003
+    .section003 {
+        width: 1140px;
+        border: 1px solid red;
+        margin-bottom: 120px;
+        .box-section {
+            display: flex;
+            justify-content: space-around;
+            .box-01 {
+                z-index: 2;
+                width: 33%;
+                margin: 0px 27.5px 0px 27.5px;
+                line-height: 26px;
+                background-color: #ffffff;
+                padding: 59px 40px 85px 40px;
+                box-shadow: 0px 25px 50px 25px #f6f7ff;
+                border-radius: 42px;
+                text-align: center;
+
+                &:hover {
+                    box-shadow: 0px 25px 50px 25px #eaedff;
+                    transition: all 0.4s ease;
+                    cursor: pointer;
+                }
+                .header-box {
+                    position: relative;
+                    z-index: 2;
+                }
+
+                .box-avatar {
+                    display: inline-block;
+                    margin-bottom: 13px;
+                }
+
+                .box-body {
+                    position: relative;
+                    z-index: 2;
+                }
+
+                .box-title {
+                    padding: 5px 0px 5px 0px;
+                    font-family: "Poppins", Sans-serif;
+                    color: #091156;
+                    font-size: 18px;
+                    font-weight: 600;
+                    text-align: center;
+                }
+
+                .box-description {
+                    color: #8b8b8b;
+                    font-size: 14px;
+                    font-weight: 400;
+                    letter-spacing: 1px;
+                    text-align: center;
+                }
+            }
+        }
+    }
+    .background-002 {
+        position: absolute;
+        z-index: 1;
+        width: 100vw;
+        border: 1px solid red;
+        background-image: url("https://wordpress.altdesain.com/beautice/beautyclinic/wp-content/uploads/2021/11/BG-1.png");
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: top right;
+        height: 100%;
+    }
+    .section004 {
+        z-index: 2;
+        width: 1140px;
+        border: 1px solid rgb(195, 0, 255);
+        height: 400px;
+        display: flex;
+        .left-aboutus-total {
+            width: 50%;
+            .left-aboutus-text {
+                border: 1px solid rgb(109, 194, 12);
+
+                .title-main {
+                    color: #ff64ae;
+                    font-family: "Poppins", Sans-serif;
+                    font-size: 16px;
+                    font-weight: 600;
+                    margin-bottom: 10px;
+                }
+                .description-main {
+                    color: #091156;
+                    margin: 0px 0px 20px 0px;
+                    font-family: "Poppins", Sans-serif;
+                    font-size: 36px;
+                    font-weight: 600;
+                    line-height: 40px;
+                }
+                .description-main-1 {
+                    color: #8b8b8b;
+                    font-family: "Poppins", Sans-serif;
+                    font-size: 16px;
+                    font-weight: 400;
+                    letter-spacing: 1px;
+                    margin: 0px 0px 20px 0px;
+                }
+            }
+            .left-button {
+                border: 1px solid yellow;
+                height: 37%;
+                display: flex;
+                align-items: center;
+                .btn-learnmore {
+                    width: 40%;
+                    border: 1px solid red;
+                    display: flex;
+                    align-items: center;
+                    .btn-aboutus-more {
+                        width: 172px;
+                        height: 60px;
+                        border-radius: 50px;
+                        border: none;
+                        background-color: #ff64ae;
+                        box-shadow: 0px 17px 22px #ffedf6;
+                        color: white;
+                        font-family: "Poppins", Sans-serif;
+                        font-size: 16px;
+                        &:hover {
+                            background-color: #0056b3;
+                            transition: 0.5s;
+                            cursor: pointer;
+                        }
+                    }
+                }
+                .btn-play {
+                    height: 60px;
+                    width: 160px;
+                    display: flex;
+                    align-items: center;
+                    background-color: #091156;
+                    color: white;
+                    border-radius: 50px;
+                    justify-content: space-around;
+                    .icon-play {
+                        font-size: 1.6rem;
+                    }
+                }
+            }
+        }
+
+        .right-aboutus {
+            width: 50%;
+            border: 1px solid rgb(109, 194, 12);
+            height: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+    }
+    .section005 {
+        width: 1140px;
+        border: 1px solid red;
+
+        .section005-team {
+            border: 1px solid rgb(0, 81, 255);
+            .Teams {
+                text-align: center;
+            }
+            .title-Teams {
+                font-weight: 600;
+                font-size: 1.6rem;
+                line-height: 125%;
+                color: #ff64ae;
+                margin-bottom: 20px;
+            }
+            .description-Teams {
+                color: #091156;
+                margin: 0px 0px 20px 0px;
+                font-family: "Poppins", Sans-serif;
+                font-size: 36px;
+                font-weight: 600;
+                line-height: 40px;
+            }
+            .description-Teams-1 {
+                color: #8b8b8b;
+                font-size: 16px;
+                line-height: 24px;
+            }
+        }
+    }
+    .section006 {
+        width: 1140px;
+        border: 1px solid red;
+        .Professional-section {
+            margin-top: 120px;
+            display: flex;
+        }
+        .Professional-box-01 {
+            width: 33%;
+            margin: 0px 27.5px 0px 27.5px;
+            line-height: 26px;
+            background-color: #ffffff;
+            padding: 59px 40px 85px 40px;
+            border-radius: 42px;
+            text-align: center;
+        }
+
+        .Professional-header-box {
+            position: relative;
+            z-index: 2;
+        }
+
+        .Professional-box-avatar {
+            display: inline-block;
+            margin-bottom: 13px;
+        }
+
+        .Professional-box-body {
+            position: relative;
+            z-index: 2;
+        }
+
+        .Professional-box-title {
+            padding: 5px 0px 5px 0px;
+            color: #091156;
+            font-size: 18px;
+            font-weight: 600;
+            text-align: center;
+        }
+        .Professional-box-title2 {
+            color: var(--primary);
+            font-weight: 600;
+            font-size: 16px;
+            margin-bottom: 15px;
+        }
+        .Professional-box-description {
+            color: #8b8b8b;
+            font-size: 14px;
+            font-weight: 400;
+            letter-spacing: 1px;
+            text-align: center;
+        }
+        .Professional-box-02 {
+            z-index: 2;
+            width: 33%;
+            margin: 0px 27.5px 0px 27.5px;
+            line-height: 26px;
+            background-color: #ffffff;
+            padding: 59px 40px 85px 40px;
+            box-shadow: 0px 25px 50px 25px #f6f7ff;
+            border-radius: 42px;
+            text-align: center;
+        }
+        .Professional-box-03 {
+            z-index: 2;
+            width: 33%;
+            margin: 0px 27.5px 0px 27.5px;
+            line-height: 26px;
+            background-color: #ffffff;
+            padding: 59px 40px 85px 40px;
+            border-radius: 42px;
+            text-align: center;
+        }
+        .icon-socical {
+            margin-top: 3rem;
+            position: relative;
+            z-index: 2;
+            display: flex;
+            justify-content: space-around;
+        }
+        .blue-icon .pink-icon .light-blue-icon {
+            width: 24px;
+            height: 25px;
+            font-size: 3rem;
+            color: #091156;
+        }
+        .blue-media {
+            text-align: center;
+            text-decoration: none;
+            border-radius: 50px;
+            width: 49px;
+            height: 49px;
+            line-height: 60px;
+            background-color: #ffffff;
+            box-shadow: -2px 6px 16px -1px #e6e9fd;
+            &:hover {
+                background-color: #3b5998;
+            }
+        }
+        .pink-media {
+            text-align: center;
+            text-decoration: none;
+            border-radius: 50px;
+            width: 49px;
+            height: 49px;
+            line-height: 60px;
+            background-color: #ffffff;
+            box-shadow: -2px 6px 16px -1px #e6e9fd;
+            &:hover {
+                background-color: pink;
+            }
+        }
+        .light-blue-media {
+            text-align: center;
+            text-decoration: none;
+            border-radius: 50px;
+            width: 49px;
+            height: 49px;
+            line-height: 60px;
+            background-color: #ffffff;
+            box-shadow: -2px 6px 16px -1px #e6e9fd;
+            &:hover {
+                background-color: lightblue;
+            }
+        }
+        .blue-icon:hover {
+            color: rgb(255, 255, 255);
+        }
+        .pink-media:hover {
+            color: rgb(255, 255, 255);
+        }
+        .light-blue-media:hover {
+            color: rgb(255, 255, 255);
+        }
+    }
+    .background-003 {
+        top: 2780px;
+        position: absolute;
+        z-index: 1;
+        width: 100vw;
+        border: 1px solid red;
+        background-image: url("https://wordpress.altdesain.com/beautice/beautyclinic/wp-content/uploads/2021/11/BG-2.png");
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: top left;
+        height: 100%;
+    }
+    .section007 {
+        z-index: 2;
+        width: 1140px;
+        border: 1px solid red;
+        .section-form {
+            display: flex;
+        }
+        .img-form {
+            z-index: 2;
+            width: 50%;
+            border: 1px solid red;
+            justify-content: center; /* căn giữa theo chiều ngang */
+            align-items: center;
+        }
+        .input-form {
+            border: 1px solid red;
+            z-index: 2;
+            width: 50%;
+        }
+        .title-form {
+            text-align: start;
+            margin-bottom: 30px;
+        }
+        .title-contactus {
+            color: #ff64ae;
+            font-family: "Poppins", Sans-serif;
+            font-size: 16px;
+            font-weight: 600;
+            margin: 0px 0px 10px 0px;
+        }
+        .description-main-us {
+            color: #091156;
+            margin: 0px 0px 20px 0px;
+            font-family: "Poppins", Sans-serif;
+            font-size: 36px;
+            font-weight: 600;
+            line-height: 40px;
+        }
+        .description-main-us-1 {
+            color: #8b8b8b;
+            font-family: "Poppins", Sans-serif;
+            font-size: 16px;
+            font-weight: 400;
+            letter-spacing: 1px;
+            margin: 0px 0px 20px 0px;
+        }
+        ///Form
+        .input-form {
+            margin-left: 40px;
+        }
+        ///
+        .form01 {
+            display: flex;
+        }
+        .first-name {
+            border-radius: 20px;
+            border-style: solid;
+            border-width: 1px 1px 1px 1px;
+            border-color: #d9ddfe;
+            width: 30%;
+            height: 51px;
+            margin-right: 100px;
+            padding: 12px 25px;
+            input {
+                font-size: 1.5rem;
+                border: none;
+                background-color: transparent;
+                outline: none;
+            }
+        }
+        .last-name {
+            border-radius: 20px;
+            border-style: solid;
+            border-width: 1px 1px 1px 1px;
+            border-color: #d9ddfe;
+            width: 30%;
+            height: 51px;
+            padding: 12px 25px;
+
+            input {
+                font-size: 1.5rem;
+                border: none;
+                background-color: transparent;
+                outline: none;
+            }
+        }
+        .form02 {
+            margin-top: 40px;
+            border-radius: 20px;
+            border-style: solid;
+            border-width: 1px 1px 1px 1px;
+            border-color: #d9ddfe;
+            width: 495px;
+            height: 51px;
+            padding: 12px 25px;
+            input {
+                font-size: 1.5rem;
+                border: none;
+                background-color: transparent;
+                outline: none;
+            }
+        }
+        .form03 {
+            margin-top: 40px;
+            border-radius: 20px;
+            border-style: solid;
+            border-width: 1px 1px 1px 1px;
+            border-color: #d9ddfe;
+            width: 495px;
+            height: 239px;
+            padding: 12px 25px;
+            input {
+                font-size: 1.5rem;
+                border: none;
+                background-color: transparent;
+                outline: none;
+            }
+        }
+        .btnform {
+            margin-top: 30px;
+            font-weight: 600;
+            width: 172px;
+            height: 60px;
+            background: #ff64ae;
+            box-shadow: 0px 17px 22px #ffedf6;
+            border-radius: 50px;
+            font-size: 16px;
+            line-height: 24px;
+            text-align: center;
+            letter-spacing: 0.1em;
+            border: none;
+            color: #ffffff;
+            &:hover {
+                background-color: #0056b3;
+                transition: 0.5s;
+                cursor: pointer;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 1140px) {
+    .inner {
+        flex-direction: column;
+        width: 100vw;
+    }
+    .section001 {
+        flex-direction: column;
+        justify-content: center;
+        .left {
+            width: 100% !important;
+            text-align: center;
+
+            .btn-01 {
+                justify-content: center !important;
+                margin-bottom: 50px;
+            }
+        }
+        .right {
+            width: 100% !important;
+            text-align: center;
+            justify-content: center !important;
+        }
+    }
+}
