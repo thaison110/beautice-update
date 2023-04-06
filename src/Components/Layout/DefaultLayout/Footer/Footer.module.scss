@@ -1,0 +1,83 @@
+@import "normalize.css";
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
+.wrapper {
+    width: 100vw;
+    height: 705px;
+    border: 1px solid red;
+    z-index: 1;
+    background-image: url("https://wordpress.altdesain.com/beautice/beautyclinic/wp-content/uploads/2021/11/footer_bg1.png");
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.inner {
+    z-index: 2;
+    width: 1140px;
+    height: 400px;
+    border: 1px solid white;
+    display: flex;
+    .contact {
+        width: 50%;
+        height: 100%;
+        border: 1px solid white;
+        .logo-footer {
+            margin-top: 70px;
+            .logo-f {
+                margin-bottom: 20px;
+            }
+            .text-01 {
+                color: #d7dbff;
+                font-family: "Poppins", Sans-serif;
+                font-size: 16px;
+                font-weight: 400;
+                letter-spacing: 1px;
+            }
+            .text-02 {
+                font-family: "Poppins", Sans-serif;
+                font-size: 14px;
+                font-weight: 500;
+                font-style: italic;
+                letter-spacing: 1px;
+                color: #d7dbff;
+                margin-bottom: 20px;
+            }
+            .text-34 {
+                display: flex;
+                margin-top: 20px;
+            }
+            .text-03 {
+                color: #d7dbff;
+                font-family: "Poppins", Sans-serif;
+                font-size: 14px;
+                font-weight: 500;
+                font-style: italic;
+                letter-spacing: 1px;
+            }
+            .text-04 {
+                margin-left: 100px;
+                color: #d7dbff;
+                font-family: "Poppins", Sans-serif;
+                font-size: 14px;
+                font-weight: 500;
+                font-style: italic;
+                letter-spacing: 1px;
+            }
+        }
+    }
+    .page-infor {
+        display: flex;
+        width: 50%;
+        height: 100%;
+        border: 1px solid rgb(102, 255, 0);
+        .page {
+            width: 50%;
+            height: 100%;
+            border: 1px solid rgb(0, 255, 221);
+        }
+        .infor {
+            width: 50%;
+            height: 100%;
+            border: 1px solid rgb(255, 0, 204);
+        }
+    }
+}

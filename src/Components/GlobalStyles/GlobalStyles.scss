@@ -1,0 +1,12 @@
+@import "normalize.css";
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
+:root {
+    --primary: #ff64ae;
+    --color-title: #091156;
+    --color-title-text: #8b8b8b;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
