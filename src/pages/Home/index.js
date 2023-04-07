@@ -11,33 +11,33 @@ function Home() {
     return (
         <div className={cx("wrapper")}>
             <div className={cx("inner")}>
-                {/* <div className={cx("background-001")}> */}
-                <div className={cx("section001")}>
-                    <div className={cx("left")}>
-                        <h1 className={cx("title")}>
-                            Clinic & beauty consultant
-                        </h1>
-                        <p className={cx("description")}>
-                            It is a long established fact that a reader will be
-                            by the readable content of a page.
-                        </p>
-                        <div className={cx("btn-01")}>
-                            <Link className={cx("link")} to="">
-                                <button className={cx("btn-contact")}>
-                                    More Details
-                                </button>
-                            </Link>
+                <div className={cx("background-001")}>
+                    <div className={cx("section001")}>
+                        <div className={cx("left")}>
+                            <h1 className={cx("title")}>
+                                Clinic & beauty consultant
+                            </h1>
+                            <p className={cx("description")}>
+                                It is a long established fact that a reader will
+                                be by the readable content of a page.
+                            </p>
+                            <div className={cx("btn-01")}>
+                                <Link className={cx("link")} to="">
+                                    <button className={cx("btn-contact")}>
+                                        More Details
+                                    </button>
+                                </Link>
+                            </div>
+                        </div>
+                        <div className={cx("right")}>
+                            <img
+                                src="https://wordpress.altdesain.com/beautice/beautyclinic/wp-content/uploads/2021/11/Frame-1.png"
+                                alt=""
+                            />
                         </div>
                     </div>
-                    <div className={cx("right")}>
-                        <img
-                            src="https://wordpress.altdesain.com/beautice/beautyclinic/wp-content/uploads/2021/11/Frame-1.png"
-                            alt=""
-                        />
-                    </div>
                 </div>
-                {/* </div> */}
-                {/* <div className={cx("section002")}>
+                <div className={cx("section002")}>
                     <div className={cx("Main-Services")}>
                         <div className={cx("main-text")}>
                             <h2 className={cx("title-main")}>Main Services</h2>
@@ -55,6 +55,7 @@ function Home() {
                         </div>
                     </div>
                 </div>
+
                 <div className={cx("section003")}>
                     <div className={cx("box-section")}>
                         <div className={cx("box-01")}>
@@ -116,7 +117,9 @@ function Home() {
                         </div>
                     </div>
                 </div>
+
                 <div className={cx("background-002")}></div>
+
                 <div className={cx("section004")}>
                     <div className={cx("left-aboutus-total")}>
                         <div className={cx("left-aboutus-text")}>
@@ -165,6 +168,7 @@ function Home() {
                         />
                     </div>
                 </div>
+
                 <div className={cx("section005")}>
                     <div className={cx("section005-team")}>
                         <div className={cx("Teams")}>
@@ -183,6 +187,7 @@ function Home() {
                         </div>
                     </div>
                 </div>
+
                 <div className={cx("section006")}>
                     <div className={cx("Professional-section")}>
                         <div className={cx("Professional-box-01")}>
@@ -334,7 +339,9 @@ function Home() {
                         </div>
                     </div>
                 </div>
+
                 <div className={cx("background-003")}></div>
+
                 <div className={cx("section007")}>
                     <div className={cx("section-form")}>
                         <div className={cx("img-form")}>
@@ -391,7 +398,7 @@ function Home() {
                             </div>
                         </div>
                     </div>
-                </div> */}
+                </div>
             </div>
         </div>
     );

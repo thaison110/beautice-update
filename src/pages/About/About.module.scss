@@ -1,0 +1,45 @@
+@import "normalize.css";
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
+.wrapper {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    .inner {
+        border: 1px solid red;
+        .section001 {
+            width: 1140px;
+            border: 1px solid red;
+            height: 400px;
+        }
+        .section002 {
+            width: 1140px;
+            border: 1px solid red;
+            height: 400px;
+        }
+        .section003 {
+            width: 1140px;
+            border: 1px solid red;
+            height: 400px;
+        }
+        .section004 {
+            width: 1140px;
+            border: 1px solid red;
+            height: 400px;
+        }
+        .section005 {
+            width: 1140px;
+            border: 1px solid red;
+            height: 400px;
+        }
+        .section006 {
+            width: 1140px;
+            border: 1px solid red;
+            height: 400px;
+        }
+        .section007 {
+            width: 1140px;
+            border: 1px solid red;
+            height: 400px;
+        }
+    }
+}
