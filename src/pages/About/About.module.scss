@@ -1,45 +1,545 @@
 @import "normalize.css";
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
+
 .wrapper {
     width: 100vw;
     display: flex;
     justify-content: center;
     .inner {
         border: 1px solid red;
+        width: 1140px;
+
         .section001 {
-            width: 1140px;
             border: 1px solid red;
             height: 400px;
+            display: flex;
+            align-items: center;
+            .Main-Services {
+                display: flex;
+                z-index: 2;
+                .main-text {
+                    width: 100%;
+                    justify-content: center;
+
+                    .title-main {
+                        color: #ff64ae;
+                        font-family: "Poppins", Sans-serif;
+                        font-size: 16px;
+                        font-weight: 600;
+                        margin: 0px 0px 10px 0px;
+                    }
+                    .description-main {
+                        color: #091156;
+                        margin: 0px 0px 20px 0px;
+                        font-family: "Poppins", Sans-serif;
+                        font-size: 36px;
+                        font-weight: 600;
+                        line-height: 40px;
+                    }
+                    .description-main-1 {
+                        color: #8b8b8b;
+                        font-family: "Poppins", Sans-serif;
+                        font-size: 16px;
+                        font-weight: 400;
+                        letter-spacing: 1px;
+                        margin: 0px 0px 20px 0px;
+                    }
+                }
+            }
         }
         .section002 {
+            z-index: 2;
+            display: flex;
+            height: 500px;
+            .watch-background {
+                z-index: 2;
+                width: 100%;
+                height: 500px;
+                border: 1px solid #091156;
+                background-image: url("https://wordpress.altdesain.com/beautice/beautyclinic/wp-content/uploads/2021/11/unsplash_DE6rYp1nAho.png");
+                background-size: contain;
+                background-position: center center;
+                background-repeat: no-repeat;
+            }
+        }
+        .background {
+            z-index: 1;
+            position: absolute;
+            top: 414px;
             width: 1140px;
-            border: 1px solid red;
-            height: 400px;
+            right: 0;
+            height: 1480px;
+            background-image: url("https://wordpress.altdesain.com/beautice/beautyclinic/wp-content/uploads/2021/11/BG-3.png");
+            background-size: cover;
         }
         .section003 {
-            width: 1140px;
+            z-index: 2;
             border: 1px solid red;
-            height: 400px;
+            display: flex;
+            justify-content: center;
+            .Teams {
+                margin-top: 3rem;
+                z-index: 3;
+                text-align: center;
+            }
+            .title-Teams {
+                color: #ff64ae;
+                font-family: "Poppins", Sans-serif;
+                font-size: 16px;
+                font-weight: 600;
+                margin: 0px 0px 10px 0px;
+            }
+            .description-Teams {
+                color: #091156;
+                margin: 0px 0px 20px 0px;
+                font-family: "Poppins", Sans-serif;
+                font-size: 36px;
+                font-weight: 600;
+                line-height: 40px;
+            }
+            .description-Teams-1 {
+                color: #8b8b8b;
+                font-family: "Poppins", Sans-serif;
+                font-size: 16px;
+                font-weight: 400;
+                letter-spacing: 1px;
+                margin: 0px 0px 20px 0px;
+            }
         }
         .section004 {
-            width: 1140px;
             border: 1px solid red;
-            height: 400px;
+            .Professional-section {
+                width: 1140px;
+                display: flex;
+                margin-bottom: 120px;
+                justify-content: space-around;
+                z-index: 2;
+
+                .Professional-box-01 {
+                    margin: 0px 27.5px 0px 27.5px;
+                    line-height: 26px;
+                    background-color: #ffffff;
+                    padding: 59px 40px 85px 40px;
+                    border-radius: 42px;
+                    text-align: center;
+                    z-index: 2;
+                    box-shadow: #f3f4ff;
+                }
+
+                .Professional-header-box {
+                    position: relative;
+                    z-index: 2;
+                }
+
+                .Professional-box-avatar {
+                    display: inline-block;
+                    margin-bottom: 13px;
+                }
+
+                .Professional-box-body {
+                    position: relative;
+                    z-index: 2;
+                }
+
+                .Professional-box-title {
+                    padding: 5px 0px 5px 0px;
+                    color: #091156;
+                    font-size: 18px;
+                    font-weight: 600;
+                    text-align: center;
+                }
+                .Professional-box-title2 {
+                    color: var(--primary);
+                    font-weight: 600;
+                    font-size: 16px;
+                    margin-bottom: 15px;
+                }
+                .Professional-box-description {
+                    color: #8b8b8b;
+                    font-size: 14px;
+                    font-weight: 400;
+                    letter-spacing: 1px;
+                    text-align: center;
+                }
+            }
+
+            .icon-socical {
+                margin-top: 3rem;
+                position: relative;
+                z-index: 2;
+                display: flex;
+                justify-content: space-around;
+            }
+            .blue-icon .pink-icon .light-blue-icon {
+                width: 24px;
+                height: 25px;
+                font-size: 3rem;
+            }
+            .blue-media {
+                text-align: center;
+                text-decoration: none;
+                border-radius: 50px;
+                width: 49px;
+                height: 49px;
+                line-height: 60px;
+                background-color: #ffffff;
+                box-shadow: -2px 6px 16px -1px #e6e9fd;
+                &:hover {
+                    background-color: #3b5998;
+                    cursor: pointer;
+                }
+            }
+            .pink-media {
+                text-align: center;
+                text-decoration: none;
+                border-radius: 50px;
+                width: 49px;
+                height: 49px;
+                line-height: 60px;
+                background-color: #ffffff;
+                box-shadow: -2px 6px 16px -1px #e6e9fd;
+                &:hover {
+                    cursor: pointer;
+                    background-color: pink;
+                }
+            }
+            .light-blue-media {
+                text-align: center;
+                text-decoration: none;
+                border-radius: 50px;
+                width: 49px;
+                height: 49px;
+                line-height: 60px;
+                background-color: #ffffff;
+                box-shadow: -2px 6px 16px -1px #e6e9fd;
+                &:hover {
+                    cursor: pointer;
+                    background-color: lightblue;
+                }
+            }
+            .blue-icon:hover {
+                color: rgb(255, 255, 255);
+            }
+            .pink-media:hover {
+                color: rgb(255, 255, 255);
+            }
+            .light-blue-media:hover {
+                color: rgb(255, 255, 255);
+            }
         }
         .section005 {
-            width: 1140px;
+            width: 100%;
             border: 1px solid red;
-            height: 400px;
+            height: 630px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            .slogan-background {
+                width: 100%;
+                height: 630px;
+                background-image: url("https://wordpress.altdesain.com/beautice/beautyclinic/wp-content/uploads/2021/11/unsplash_Pe9IXUuC6QU.png");
+                background-repeat: no-repeat;
+                background-size: cover;
+                background-position: center center;
+                position: absolute;
+                left: 0;
+                z-index: 1;
+            }
+
+            .slogan-background-color {
+                background-color: #091156;
+                width: 100%;
+                height: 630px;
+                opacity: 0.7;
+                position: absolute;
+                left: 0;
+                z-index: 2;
+            }
+
+            .slogan {
+                border: 1px solid #ff0000;
+                z-index: 3;
+                width: 1140px;
+                height: 300px;
+
+                .slogan-title-des {
+                    z-index: 3;
+                    text-align: center;
+
+                    .title {
+                        color: #ffffff;
+                        font-family: "Poppins", Sans-serif;
+                        font-size: 36px;
+                        font-weight: 600;
+                        line-height: 40px;
+                    }
+
+                    .subtitle {
+                        font-family: "Poppins", Sans-serif;
+                        font-size: 16px;
+                        font-weight: 600;
+                        color: #ff64ae;
+                    }
+
+                    .description {
+                        color: #cacaca;
+                        font-family: "Poppins", Sans-serif;
+                        font-size: 16px;
+                        font-weight: 400;
+                        letter-spacing: 1px;
+                    }
+                }
+            }
         }
         .section006 {
-            width: 1140px;
             border: 1px solid red;
-            height: 400px;
+            margin-top: 100px;
+            display: flex;
+            z-index: 2;
+            position: relative;
+            .left-section006 {
+                width: 50%;
+                border: 1px solid rgb(166, 8, 8);
+                display: flex;
+                align-items: center;
+            }
+            .right-section006 {
+                display: flex;
+                width: 50%;
+                border: 1px solid rgb(166, 8, 8);
+                .title-main {
+                    color: #ff64ae;
+                    font-family: "Poppins", Sans-serif;
+                    font-size: 16px;
+                    font-weight: 600;
+                    margin: 0px 0px 10px 0px;
+                }
+                .description-main {
+                    color: #091156;
+                    margin: 0px 0px 20px 0px;
+                    font-family: "Poppins", Sans-serif;
+                    font-size: 36px;
+                    font-weight: 600;
+                    line-height: 40px;
+                }
+                .description-main-1 {
+                    color: #8b8b8b;
+                    font-family: "Poppins", Sans-serif;
+                    font-size: 16px;
+                    font-weight: 400;
+                    letter-spacing: 1px;
+                    margin: 0px 0px 20px 0px;
+                }
+            }
         }
         .section007 {
-            width: 1140px;
             border: 1px solid red;
-            height: 400px;
+            display: flex;
+            z-index: 2;
+            position: relative;
+            .left-section007 {
+                width: 50%;
+                border: 1px solid rgb(166, 8, 8);
+                display: flex;
+                align-items: center;
+                width: 50%;
+                border: 1px solid rgb(166, 8, 8);
+                .title-main {
+                    color: #ff64ae;
+                    font-family: "Poppins", Sans-serif;
+                    font-size: 16px;
+                    font-weight: 600;
+                    margin: 0px 0px 10px 0px;
+                }
+                .description-main {
+                    color: #091156;
+                    margin: 0px 0px 20px 0px;
+                    font-family: "Poppins", Sans-serif;
+                    font-size: 36px;
+                    font-weight: 600;
+                    line-height: 40px;
+                }
+                .description-main-1 {
+                    color: #8b8b8b;
+                    font-family: "Poppins", Sans-serif;
+                    font-size: 16px;
+                    font-weight: 400;
+                    letter-spacing: 1px;
+                    margin: 0px 0px 20px 0px;
+                }
+            }
+            .right-section007 {
+                width: 50%;
+                border: 1px solid rgb(166, 8, 8);
+                display: flex;
+                align-items: center;
+            }
+        }
+        .section008-background {
+            border: 1px solid red;
+            z-index: 1;
+            position: absolute;
+            width: 100vw;
+            height: 100%;
+            top: 2700px;
+            right: 0;
+            background-image: url("https://wordpress.altdesain.com/beautice/beautyclinic/wp-content/uploads/2021/11/BG-4a.png");
+            background-size: cover;
+        }
+        .section009 {
+            display: flex;
+            justify-content: center;
+            .section009-text {
+                width: 100vw;
+                margin-top: 50px;
+                display: flex;
+                flex-direction: column;
+                text-align: center;
+                .section009-title {
+                    color: #ff64ae;
+                    font-family: "Poppins", Sans-serif;
+                    font-size: 16px;
+                    font-weight: 600;
+                    margin: 0px 0px 10px 0px;
+                }
+                .section009-description-main {
+                    color: #091156;
+                    margin: 0px 0px 20px px 0px;
+                    font-family: "Poppins", Sans-serif;
+                    font-size: 36px;
+                    font-weight: 600;
+                    line-height: 40px;
+                }
+                .section006-description-main-1 {
+                    color: #8b8b8b;
+                    font-family: "Poppins", Sans-serif;
+                    font-size: 16px;
+                    font-weight: 400;
+                    letter-spacing: 1px;
+                    margin: 0px 0px 20px 0px;
+                }
+            }
+        }
+        .section0010 {
+            width: 100%;
+            border: 1px solid #000;
+            height: 300px;
+            z-index: 2;
+            .section007-logo {
+                border: 1px solid #f90000;
+                margin-right: 50px;
+                margin-left: 50px;
+                margin-top: 3rem;
+                position: relative;
+                z-index: 2;
+                display: flex;
+                justify-content: space-around;
+            }
+            .icon-logo {
+                display: flex;
+                height: 170px;
+                width: 198px;
+                align-items: center;
+                text-align: center;
+                justify-content: center;
+            }
+            .icon-logo-img {
+                cursor: pointer;
+                &:hover {
+                    opacity: 0.5;
+                }
+            }
+        }
+    }
+}
+@media screen and (max-width: 1140px) {
+    .inner {
+        width: 100vw !important;
+        .section001 {
+            width: 100vw;
+        }
+        .section002 {
+            height: 100%;
+        }
+        .section004 {
+            .Professional-section {
+                width: 100vw !important;
+            }
+            @media screen and (max-width: 1020px) {
+                .Professional-section {
+                    flex-direction: column;
+                    width: 100vw;
+                    justify-content: center;
+                    align-items: center;
+                    .Professional-box-01 {
+                        width: 70%;
+                    }
+                }
+            }
+        }
+        .section006 {
+            flex-direction: column;
+            width: 100vw;
+            align-items: center;
+            .left-section006 {
+                width: 80vw !important;
+                display: flex;
+                justify-content: center;
+            }
+            .right-section006 {
+                display: flex;
+                justify-content: start;
+                width: 80vw !important;
+            }
+        }
+        .section007 {
+            flex-direction: column;
+            width: 100vw;
+            align-items: center;
+
+            .left-section007 {
+                width: 80vw !important;
+                display: flex;
+                justify-content: start;
+            }
+            .right-section007 {
+                display: flex;
+                justify-content: center;
+                width: 80vw !important;
+            }
+        }
+        .section0010 {
+            width: 100vw;
+            .logo01 {
+                display: none;
+            }
+            .logo05 {
+                display: none;
+            }
+        }
+    }
+}
+@media screen and (max-width: 770px) {
+    .section005 {
+        width: 100vw;
+    }
+}
+@media screen and (max-width: 510px) {
+    .right-section007 {
+        .img-section04-left {
+            width: 70vw !important;
+        }
+    }
+    .img-section04-left {
+        width: 70vw !important;
+    }
+}
+@media screen and (max-width: 400px) {
+    .section002 {
+        height: 300px;
+        .btn-play {
+            height: 200px !important;
         }
     }
 }

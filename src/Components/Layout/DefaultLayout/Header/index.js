@@ -28,7 +28,7 @@ function Header() {
                     <Link className={cx("text")} to="/about">
                         About
                     </Link>
-                    <Link className={cx("text")} to="/service">
+                    <Link className={cx("text")} to="/services">
                         Service
                     </Link>
                     <Link className={cx("text")} to="/gallery">
