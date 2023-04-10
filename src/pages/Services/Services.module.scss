@@ -10,39 +10,396 @@
         width: 1140px;
         .section001 {
             border: 1px solid red;
-            height: 400px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 250px;
+            .Main-Services {
+                height: 100%;
+                display: flex;
+                text-align: center;
+                align-items: center;
+                justify-content: center;
+                .title-main {
+                    color: #ff64ae;
+                    font-family: "Poppins", Sans-serif;
+                    font-size: 16px;
+                    font-weight: 600;
+                    margin: 0px 0px 10px 0px;
+                }
+                .description-main {
+                    color: #091156;
+                    margin: 0px 0px 20px 0px;
+                    font-family: "Poppins", Sans-serif;
+                    font-size: 36px;
+                    font-weight: 600;
+                    line-height: 40px;
+                }
+                .description-main-1 {
+                    color: #8b8b8b;
+                    font-family: "Poppins", Sans-serif;
+                    font-size: 16px;
+                    font-weight: 400;
+                    letter-spacing: 1px;
+                    margin: 0px 0px 20px 0px;
+                }
+            }
         }
         .section002 {
+            position: relative;
+            z-index: 2;
             border: 1px solid red;
             height: 400px;
+            display: flex;
+            align-items: center;
+            .right-section002 {
+                text-align: end;
+                width: 70%;
+            }
+            .left-section002 {
+                width: 30%;
+            }
         }
         .section003 {
+            position: relative;
+            z-index: 2;
             border: 1px solid red;
             height: 400px;
+            display: flex;
+            align-items: center;
+            .right-section003 {
+                display: flex;
+                width: 40vw;
+                justify-content: center;
+            }
+            .left-section003 {
+                width: 60vw;
+            }
         }
-        .section004 {
-            border: 1px solid red;
-            height: 400px;
+        .section004-background {
+            z-index: 1;
+            position: absolute;
+            top: 414px;
+            width: 100vw;
+            right: 0;
+            height: 800px;
+            background-image: url("https://wordpress.altdesain.com/beautice/beautyclinic/wp-content/uploads/2021/11/BG-5.png");
+            background-size: cover;
         }
         .section005 {
+            position: relative;
+            z-index: 2;
             border: 1px solid red;
-            height: 400px;
+            display: flex;
+            align-items: center;
+            .left-section005 {
+                width: 30vw;
+            }
+            .right-section005 {
+                .title-main {
+                    color: #ff64ae;
+                    font-family: "Poppins", Sans-serif;
+                    font-size: 16px;
+                    font-weight: 600;
+                    margin: 0px 0px 10px 0px;
+                }
+                .description-main {
+                    color: #091156;
+                    margin: 0px 0px 20px 0px;
+                    font-family: "Poppins", Sans-serif;
+                    font-size: 36px;
+                    font-weight: 600;
+                    line-height: 40px;
+                }
+                .description-main-1 {
+                    color: #8b8b8b;
+                    font-family: "Poppins", Sans-serif;
+                    font-size: 16px;
+                    font-weight: 400;
+                    letter-spacing: 1px;
+                }
+                .Get-the-Serviecs {
+                    padding: 0px 0px 0px 0px;
+                    font-family: "Poppins", Sans-serif;
+                    font-size: 16px;
+                    font-weight: 600;
+                    letter-spacing: 1px;
+                    color: #091156;
+                    text-decoration: none;
+                    &:hover {
+                        color: #ff64ae;
+                    }
+                }
+            }
         }
         .section006 {
             border: 1px solid red;
             height: 400px;
+            display: flex;
+            align-items: center;
+            .left-section006 {
+                width: 50vw;
+                .Get-the-Serviecs {
+                    padding: 0px 0px 0px 0px;
+                    font-family: "Poppins", Sans-serif;
+                    font-size: 16px;
+                    font-weight: 600;
+                    letter-spacing: 1px;
+                    color: #091156;
+                    text-decoration: none;
+                    &:hover {
+                        color: #ff64ae;
+                    }
+                }
+                .title-main {
+                    color: #ff64ae;
+                    font-family: "Poppins", Sans-serif;
+                    font-size: 16px;
+                    font-weight: 600;
+                    margin: 0px 0px 10px 0px;
+                }
+                .description-main {
+                    color: #091156;
+                    margin: 0px 0px 20px 0px;
+                    font-family: "Poppins", Sans-serif;
+                    font-size: 36px;
+                    font-weight: 600;
+                    line-height: 40px;
+                }
+                .description-main-1 {
+                    color: #8b8b8b;
+                    font-family: "Poppins", Sans-serif;
+                    font-size: 16px;
+                    font-weight: 400;
+                    letter-spacing: 1px;
+                }
+                .Get-the-Serviecs {
+                    padding: 0px 0px 0px 0px;
+                    font-family: "Poppins", Sans-serif;
+                    font-size: 16px;
+                    font-weight: 600;
+                    letter-spacing: 1px;
+                    color: #091156;
+                    text-decoration: none;
+                    &:hover {
+                        color: #ff64ae;
+                    }
+                }
+            }
+            .right-section006 {
+            }
         }
         .section007 {
+            display: flex;
             border: 1px solid red;
             height: 400px;
+            align-items: center;
+            .left-section007 {
+                width: 40vw;
+            }
+            .right-section007 {
+                width: 60%;
+                .Get-the-Serviecs {
+                    padding: 0px 0px 0px 0px;
+                    font-family: "Poppins", Sans-serif;
+                    font-size: 16px;
+                    font-weight: 600;
+                    letter-spacing: 1px;
+                    color: #091156;
+                    text-decoration: none;
+                    &:hover {
+                        color: #ff64ae;
+                    }
+                }
+                .title-main {
+                    color: #ff64ae;
+                    font-family: "Poppins", Sans-serif;
+                    font-size: 16px;
+                    font-weight: 600;
+                    margin: 0px 0px 10px 0px;
+                }
+                .description-main {
+                    color: #091156;
+                    margin: 0px 0px 20px 0px;
+                    font-family: "Poppins", Sans-serif;
+                    font-size: 36px;
+                    font-weight: 600;
+                    line-height: 40px;
+                }
+                .description-main-1 {
+                    color: #8b8b8b;
+                    font-family: "Poppins", Sans-serif;
+                    font-size: 16px;
+                    font-weight: 400;
+                    letter-spacing: 1px;
+                }
+                .Get-the-Serviecs {
+                    padding: 0px 0px 0px 0px;
+                    font-family: "Poppins", Sans-serif;
+                    font-size: 16px;
+                    font-weight: 600;
+                    letter-spacing: 1px;
+                    color: #091156;
+                    text-decoration: none;
+                    &:hover {
+                        color: #ff64ae;
+                    }
+                }
+            }
         }
         .section008 {
             border: 1px solid red;
             height: 400px;
+            width: 100%;
+            border: 1px solid red;
+            height: 630px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            .slogan-background {
+                width: 100%;
+                height: 630px;
+                background-image: url("https://wordpress.altdesain.com/beautice/beautyclinic/wp-content/uploads/2021/11/unsplash_NPjNtTExSJ4.png");
+                background-repeat: no-repeat;
+                background-size: cover;
+                background-position: center center;
+                position: absolute;
+                left: 0;
+                z-index: 1;
+            }
+
+            .slogan-background-color {
+                background-color: #091156;
+                width: 100%;
+                height: 630px;
+                opacity: 0.7;
+                position: absolute;
+                left: 0;
+                z-index: 2;
+            }
+
+            .slogan {
+                border: 1px solid #ff0000;
+                z-index: 3;
+                width: 1140px;
+                height: 300px;
+                display: flex;
+                justify-content: center;
+                .slogan-title-des {
+                    z-index: 3;
+                    text-align: start;
+
+                    .title {
+                        color: #ffffff;
+                        margin: 0px 0px 20px 0px;
+                        font-family: "Poppins", Sans-serif;
+                        font-size: 36px;
+                        font-weight: 600;
+                        line-height: 40px;
+                    }
+
+                    .subtitle {
+                        font-family: "Poppins", Sans-serif;
+                        font-size: 16px;
+                        font-weight: 600;
+                        color: #ff64ae;
+                    }
+
+                    .description {
+                        color: #cacaca;
+                        font-family: "Poppins", Sans-serif;
+                        font-size: 16px;
+                        font-weight: 400;
+                        letter-spacing: 1px;
+                        margin: 0px 0px 20px 0px;
+                    }
+                }
+                .slogan-btn {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    width: 50%;
+                    .slogan-icon {
+                        width: 100px;
+                        height: 100px;
+                        color: #cacaca;
+                        cursor: pointer;
+                    }
+                }
+            }
         }
         .section009 {
+            display: flex;
+            justify-content: center;
+            align-items: center;
             border: 1px solid red;
-            height: 400px;
+            height: 300px;
+            color: #091156;
+            font-family: "Poppins", Sans-serif;
+            font-size: 30px;
+            font-weight: 600;
+            line-height: 40px;
+        }
+        .section010 {
+            border: 1px solid red;
+            height: 300px;
+        }
+    }
+}
+@media screen and (max-width: 1140px) {
+    .inner {
+        .section001 {
+            position: relative;
+            z-index: 2;
+        }
+        .section002 {
+            display: none !important;
+        }
+        .section003 {
+            display: none !important;
+        }
+        .section004-background {
+            display: none;
+        }
+        .section005 {
+            flex-direction: column;
+            .left-section005 {
+                width: 42vw !important;
+                display: flex;
+            }
+            .right-section005 {
+                width: 100vw;
+                display: flex;
+                justify-content: start;
+            }
+        }
+        .section006 {
+            .right-section006 {
+                display: none !important;
+            }
+            .left-section006 {
+                width: 100vw;
+                .main-text {
+                    width: 100vw;
+                }
+            }
+        }
+        .section007 {
+            .left-section007 {
+                display: none !important;
+            }
+            .right-section007 {
+                width: 100vw;
+                .main-text {
+                    width: 100vw;
+                }
+            }
+        }
+        .section008 {
+            .slogan {
+                width: 100vw !important;
+            }
         }
     }
 }
