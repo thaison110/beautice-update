@@ -39,9 +39,11 @@ function Header() {
                     </Link>
                 </nav>
                 <div className={cx("btn-header")}>
-                    <button className={cx("btn")}>
-                        <span className={cx("btn-text")}>Contact</span>
-                    </button>
+                    <Link to="/contact">
+                        <button className={cx("btn")} href="./contact">
+                            <span className={cx("btn-text")}>Contact</span>
+                        </button>
+                    </Link>
                 </div>
             </div>
         </header>

@@ -4,7 +4,7 @@
     z-index: 2;
     width: 100vw;
     height: 150px;
-    border: 1px solid red;
+
     display: flex;
     justify-content: center;
     align-items: center;
@@ -12,12 +12,12 @@
 .inner {
     height: 63px;
     width: 1140px;
-    border: 1px solid rgb(77, 241, 241);
+
     display: flex;
 }
 .logo-header {
     width: 40%;
-    border: 1px solid rgb(77, 241, 241);
+
     display: flex;
     align-items: center;
     .logo {
@@ -31,7 +31,6 @@
 }
 
 .navi {
-    border: 1px solid rgb(77, 241, 241);
     width: 60%;
     height: 63px;
     display: flex;
@@ -95,9 +94,9 @@
     .btn-header {
         width: 163px;
         justify-content: right;
-        margin-right: 50px;
+        margin-right: 0px;
         .btn {
-            margin-right: 30px;
+            margin-right: 0px;
         }
     }
 }

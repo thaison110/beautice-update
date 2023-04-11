@@ -3,7 +3,7 @@
 .wrapper {
     width: 100vw;
     height: 705px;
-    border: 1px solid red;
+
     z-index: 1;
     background-image: url("https://wordpress.altdesain.com/beautice/beautyclinic/wp-content/uploads/2021/11/footer_bg1.png");
     background-position: bottom center;
@@ -15,12 +15,12 @@
 .inner {
     z-index: 2;
     width: 1140px;
-    border: 1px solid white;
+
     display: flex;
     .contact {
         width: 50%;
         height: 100%;
-        border: 1px solid white;
+
         .logo-footer {
             margin-top: 70px;
             .logo-f {
@@ -71,11 +71,11 @@
         display: flex;
         width: 50%;
         height: 100%;
-        border: 1px solid rgb(102, 255, 0);
+
         .page {
             margin-top: 40px;
             width: 50%;
-            border: 1px solid rgb(0, 255, 221);
+
             flex-direction: column;
             .text-page-1 {
                 font-size: 1.6rem;
@@ -95,7 +95,7 @@
         .infor {
             margin-top: 40px;
             width: 50%;
-            border: 1px solid rgb(255, 0, 204);
+
             flex-direction: column;
             .text-page-1 {
                 font-size: 1.6rem;
@@ -115,14 +115,12 @@
     }
 }
 .footer {
-    border: 1px solid rgb(255, 0, 204);
     height: 170px;
     width: 1140px;
     z-index: 2;
     display: flex;
 
     .footer-left {
-        border: 1px solid rgb(255, 0, 204);
         width: 60rem;
         z-index: 2;
 
@@ -143,12 +141,12 @@
     }
     .footer-right {
         width: 100%;
-        border: 1px solid rgb(255, 0, 204);
+
         z-index: 2;
         display: flex;
         .footer-right-text {
             width: 90%;
-            border: 1px solid rgb(255, 0, 204);
+
             display: flex;
             justify-content: end;
             align-items: center;
@@ -162,7 +160,6 @@
             letter-spacing: 1px;
         }
         .footer-right-button {
-            border: 1px solid rgb(255, 0, 204);
             z-index: 2;
             display: flex;
             justify-content: start;

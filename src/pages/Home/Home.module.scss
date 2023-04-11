@@ -23,11 +23,11 @@
         .section001 {
             width: 1140px;
             padding: 229px 0px 100px 0px;
-            border: 1px solid red;
+
             display: flex;
             .left {
                 width: 47%;
-                border: 1px solid red;
+
                 .title {
                     color: #091156;
                     margin: 0px 0px 20px 0px;
@@ -47,7 +47,7 @@
                 .btn-01 {
                     display: flex;
                     justify-content: start;
-                    border: 1px solid red;
+
                     .btn-contact {
                         width: 185px;
                         height: 60px;
@@ -71,19 +71,17 @@
             }
             .right {
                 width: 53%;
-                border: 1px solid red;
             }
         }
     }
     ///Section002
     .section002 {
         width: 1140px;
-        border: 1px solid red;
+
         height: 400px;
         display: flex;
         justify-content: center;
         .Main-Services {
-            border: 1px solid red;
             text-align: center;
         }
         .title-main {
@@ -107,7 +105,7 @@
     ///Section003
     .section003 {
         width: 1140px;
-        border: 1px solid red;
+
         margin-bottom: 120px;
         .box-section {
             display: flex;
@@ -166,7 +164,7 @@
         position: absolute;
         z-index: 1;
         width: 100vw;
-        border: 1px solid red;
+
         background-image: url("https://wordpress.altdesain.com/beautice/beautyclinic/wp-content/uploads/2021/11/BG-1.png");
         background-repeat: no-repeat;
         background-size: contain;
@@ -176,14 +174,12 @@
     .section004 {
         z-index: 2;
         width: 1140px;
-        border: 1px solid rgb(195, 0, 255);
+
         height: 400px;
         display: flex;
         .left-aboutus-total {
             width: 50%;
             .left-aboutus-text {
-                border: 1px solid rgb(109, 194, 12);
-
                 .title-main {
                     color: #ff64ae;
                     font-family: "Poppins", Sans-serif;
@@ -209,13 +205,12 @@
                 }
             }
             .left-button {
-                border: 1px solid yellow;
                 height: 37%;
                 display: flex;
                 align-items: center;
                 .btn-learnmore {
                     width: 40%;
-                    border: 1px solid red;
+
                     display: flex;
                     align-items: center;
                     .btn-aboutus-more {
@@ -253,7 +248,7 @@
 
         .right-aboutus {
             width: 50%;
-            border: 1px solid rgb(109, 194, 12);
+
             height: 100%;
             display: flex;
             align-items: center;
@@ -262,10 +257,8 @@
     }
     .section005 {
         width: 1140px;
-        border: 1px solid red;
 
         .section005-team {
-            border: 1px solid rgb(0, 81, 255);
             .Teams {
                 text-align: center;
             }
@@ -293,7 +286,7 @@
     }
     .section006 {
         width: 1140px;
-        border: 1px solid red;
+
         .Professional-section {
             margin-top: 120px;
             display: flex;
@@ -431,7 +424,7 @@
         position: absolute;
         z-index: 1;
         width: 100vw;
-        border: 1px solid red;
+
         background-image: url("https://wordpress.altdesain.com/beautice/beautyclinic/wp-content/uploads/2021/11/BG-2.png");
         background-repeat: no-repeat;
         background-size: contain;
@@ -441,19 +434,18 @@
     .section007 {
         z-index: 2;
         width: 1140px;
-        border: 1px solid red;
+
         .section-form {
             display: flex;
         }
         .img-form {
             z-index: 2;
             width: 50%;
-            border: 1px solid red;
+
             justify-content: center; /* căn giữa theo chiều ngang */
             align-items: center;
         }
         .input-form {
-            border: 1px solid red;
             z-index: 2;
             width: 50%;
         }

@@ -330,16 +330,71 @@
             }
         }
         .section009 {
-            display: flex;
-            justify-content: center;
-            align-items: center;
             border: 1px solid red;
-            height: 300px;
-            color: #091156;
-            font-family: "Poppins", Sans-serif;
-            font-size: 30px;
-            font-weight: 600;
-            line-height: 40px;
+            margin-top: 5rem;
+            margin-bottom: 5rem;
+            // height: 400px;
+
+            .FAQ {
+                .faq-center {
+                    display: flex;
+                    justify-content: center;
+                    text-align: center;
+
+                    .faq-title-des {
+                        .hr {
+                            display: flex;
+                            .pink {
+                                background-color: #ff64ae;
+                                width: 20%;
+                                height: 5px;
+                            }
+                        }
+
+                        .title {
+                            color: #091156;
+                            margin: 0px 0px 20px 0px;
+                            font-size: 36px;
+                            font-weight: 600;
+                            line-height: 40px;
+                        }
+                    }
+                }
+            }
+
+            .FAQ-collapse {
+                margin-top: 5rem;
+                display: flex;
+                justify-content: center;
+                .ques-collapse {
+                    width: 80%;
+
+                    .FAQ-text {
+                        font-size: 16px;
+                        font-weight: 600;
+                        letter-spacing: 1px;
+                        color: #000;
+                    }
+
+                    .content-collapse {
+                        background-color: #f6f7ff;
+                        padding: 75px;
+                        margin-top: 1rem;
+                        border-top: 3px solid #000;
+                        border-radius: 0px 0px 20px 20px;
+
+                        .des-collapse {
+                            font-family: "Poppins", Sans-serif;
+                            font-size: 14px;
+                            font-weight: 400;
+                            font-style: italic;
+                            letter-spacing: 1px;
+                            color: #8b8b8b;
+                            margin-bottom: 1em;
+                        }
+                    }
+                }
+            }
         }
         .section010 {
             border: 1px solid red;

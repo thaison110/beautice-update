@@ -1,0 +1,363 @@
+@import "normalize.css";
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
+
+.wrapper {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    .inner {
+        border: 1px solid red;
+        width: 1140px;
+
+        .section01 {
+            display: flex;
+            position: relative;
+            .section01-left {
+                width: 50%;
+                border: 1px solid rgb(242, 255, 0);
+                height: 320px;
+                align-items: center;
+                display: flex;
+
+                .text-left {
+                    border: 1px solid rgb(255, 0, 0);
+                    height: 200px;
+                    width: 80%;
+
+                    align-items: center;
+                    .title {
+                        color: #ff64ae;
+                        font-family: "Poppins", Sans-serif;
+                        font-size: 16px;
+                        font-weight: 600;
+                    }
+                    .text {
+                        color: #091156;
+                        margin: 0px 0px 20px 0px;
+                        font-family: "Poppins", Sans-serif;
+                        font-size: 36px;
+                        font-weight: 600;
+                        line-height: 40px;
+                    }
+                }
+            }
+            .section01-right {
+                width: 50%;
+                border: 1px solid rgb(242, 255, 0);
+                height: 320px;
+                align-items: center;
+                display: flex;
+                justify-content: end;
+                .text-right {
+                    border: 1px solid rgb(255, 0, 0);
+                    height: 200px;
+                    width: 100%;
+                    display: flex;
+                    align-items: center;
+                    .text {
+                        color: #8b8b8b;
+                        font-family: "Poppins", Sans-serif;
+                        font-size: 16px;
+                        font-weight: 400;
+                        letter-spacing: 1px;
+                    }
+                }
+            }
+        }
+        .background-contact {
+            z-index: 1;
+            border: 1px solid red;
+            width: 100%;
+            height: 1000px;
+            right: 0;
+            position: absolute;
+            background-image: url(https://wordpress.altdesain.com/beautice/beautyclinic/wp-content/uploads/2021/11/BG-7.png);
+            background-position: bottom right;
+            background-repeat: no-repeat;
+        }
+        .section02 {
+            display: flex;
+            z-index: 2;
+            position: relative;
+
+            .section02-left {
+                width: 50%;
+                border: 1px solid rgb(30, 0, 255);
+                height: 708px;
+            }
+            .section02-right {
+                width: 50%;
+                border: 1px solid rgb(81, 0, 255);
+                position: relative;
+                z-index: 2;
+
+                .form01 {
+                    display: flex;
+                }
+                .first-name {
+                    border-radius: 20px;
+                    border-style: solid;
+                    border-width: 1px 1px 1px 1px;
+                    border-color: #d9ddfe;
+                    width: 30%;
+                    height: 51px;
+                    margin-right: 100px;
+                    padding: 12px 25px;
+                    input {
+                        font-size: 1.5rem;
+                        border: none;
+                        background-color: transparent;
+                        outline: none;
+                    }
+                }
+                .last-name {
+                    border-radius: 20px;
+                    border-style: solid;
+                    border-width: 1px 1px 1px 1px;
+                    border-color: #d9ddfe;
+                    width: 30%;
+                    height: 51px;
+                    padding: 12px 25px;
+
+                    input {
+                        font-size: 1.5rem;
+                        border: none;
+                        background-color: transparent;
+                        outline: none;
+                    }
+                }
+                .form02 {
+                    margin-top: 40px;
+                    border-radius: 20px;
+                    border-style: solid;
+                    border-width: 1px 1px 1px 1px;
+                    border-color: #d9ddfe;
+                    width: 495px;
+                    height: 51px;
+                    padding: 12px 25px;
+                    input {
+                        font-size: 1.5rem;
+                        border: none;
+                        background-color: transparent;
+                        outline: none;
+                    }
+                }
+                .form03 {
+                    margin-top: 40px;
+                    border-radius: 20px;
+                    border-style: solid;
+                    border-width: 1px 1px 1px 1px;
+                    border-color: #d9ddfe;
+                    width: 495px;
+                    height: 239px;
+                    padding: 12px 25px;
+                    input {
+                        font-size: 1.5rem;
+                        border: none;
+                        background-color: transparent;
+                        outline: none;
+                    }
+                }
+                .btnform {
+                    margin-top: 30px;
+                    font-weight: 600;
+                    width: 172px;
+                    height: 60px;
+                    background: #ff64ae;
+                    box-shadow: 0px 17px 22px #ffedf6;
+                    border-radius: 50px;
+                    font-size: 16px;
+                    line-height: 24px;
+                    text-align: center;
+                    letter-spacing: 0.1em;
+                    border: none;
+                    color: #ffffff;
+                    &:hover {
+                        background-color: #0056b3;
+                        transition: 0.5s;
+                        cursor: pointer;
+                    }
+                }
+            }
+        }
+        .section003 {
+            height: 550px;
+        }
+        .map {
+            position: absolute;
+            left: 0;
+            height: 550px;
+            z-index: 5;
+            width: 100vw;
+            border: 1px solid black;
+        }
+        .section004 {
+            position: relative;
+            width: 100%;
+            height: 300px;
+            border: 1px solid black;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            .text-section004 {
+                text-align: center;
+                .title {
+                    color: #ff64ae;
+                    font-family: "Poppins", Sans-serif;
+                    font-size: 16px;
+                    font-weight: 600;
+                }
+                .title2 {
+                    color: #091156;
+                    font-family: "Poppins", Sans-serif;
+                    font-size: 36px;
+                    font-weight: 600;
+                    line-height: 40px;
+                }
+                .title3 {
+                    color: #8b8b8b;
+                    font-family: "Poppins", Sans-serif;
+                    font-size: 16px;
+                    font-weight: 400;
+                    letter-spacing: 1px;
+                }
+            }
+        }
+        .section005 {
+            width: 100%;
+            border: 1px solid black;
+            .box-contact {
+                display: flex;
+                justify-content: space-around;
+                .box001 {
+                    width: 30%;
+                    height: 430px;
+                    border: 1px solid black;
+                    display: flex;
+                    justify-content: center;
+                    box-shadow: 0px 25px 50px 25px #f6f7ff;
+                    border-style: solid;
+                    border-width: 0px 0px 0px 0px;
+                    border-color: #f5f5f5;
+                    border-radius: 42px 42px 42px 42px;
+                    align-items: center;
+                    .box001-content {
+                        width: 80%;
+                        height: 300px;
+                        border: 1px solid black;
+                    }
+                    .header-box {
+                        display: flex;
+                        justify-content: center;
+                        .icon {
+                            width: 50px;
+                            height: 65px;
+                            color: #091156;
+                        }
+                    }
+                    .title-box {
+                        display: flex;
+                        justify-content: center;
+                        .title {
+                            color: #091156;
+                            font-family: "Poppins", Sans-serif;
+                            font-size: 24px;
+                            font-weight: 600;
+                        }
+                    }
+                    .text-box {
+                        display: flex;
+                        justify-content: center;
+                        text-align: center;
+                        .text {
+                            color: #8b8b8b;
+                            font-family: "Poppins", Sans-serif;
+                            font-size: 14px;
+                            font-weight: 400;
+                            letter-spacing: 1px;
+                        }
+                    }
+                    .box1-end {
+                        display: flex;
+                        justify-content: center;
+                        text-align: center;
+                        .Address {
+                            font-family: "Poppins", Sans-serif;
+                            font-size: 16px;
+                            font-weight: 600;
+                            color: #ff64ae;
+                            background-color: #ffffff00;
+                            text-decoration: none;
+                            &:hover {
+                                color: #091156;
+                                cursor: pointer;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+@media screen and (max-width: 1140px) {
+    .section01 {
+        flex-direction: column;
+        .section01-left {
+            width: 100% !important;
+            justify-content: center;
+        }
+        .section01-right {
+            width: 100% !important;
+            justify-content: center !important;
+            .text-right {
+                width: 80% !important;
+                justify-content: end;
+            }
+        }
+    }
+    .section02 {
+        flex-direction: column;
+        justify-content: center !important;
+    }
+    .section02-left {
+        display: none;
+    }
+    .section02-right {
+        width: 100vw !important;
+        justify-content: center !important;
+        .form-data {
+            width: 80vw !important;
+
+            justify-content: center !important;
+            .form01 {
+                flex-direction: column;
+                .first-name {
+                    margin-bottom: 30px;
+                    width: 80% !important;
+                }
+                .last-name {
+                    width: 80% !important;
+                }
+            }
+            .form02 {
+                width: 80% !important;
+            }
+            .form03 {
+                width: 80% !important;
+            }
+        }
+    }
+    .section005 {
+        width: 100vw;
+        display: flex;
+
+        .box-contact {
+            width: 100% !important;
+            flex-direction: column;
+            align-items: center;
+            .box001 {
+                width: 80% !important;
+            }
+        }
+    }
+}
